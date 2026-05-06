@@ -19,3 +19,13 @@ This project focuses on analyzing IKEA product data to uncover key patterns and 
 ![Screenshot](./Figure_9.png)
 ![Screenshot](./Figure_10.png)
 ![Screenshot](./Figure_11.png)
+
+# Hypothesis testing:
+![Screenshot](./Hypothesis_1.PNG)
+![Screenshot](./Hypothesis_2.PNG)
+
+# Machine learning:
+![Screenshot](./ML1.png)
+![Screenshot](./ML2.png)
+![Screenshot](./ML3.png)
+![Screenshot](./ML4.png)
