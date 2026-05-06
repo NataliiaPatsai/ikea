@@ -1,11 +1,31 @@
 # ikea
 This project focuses on analyzing IKEA product data to uncover key patterns and build a machine learning model for price prediction based on product characteristics.  The goal was to explore the dataset, identify the main factors influencing product prices, and develop a predictive model that can estimate prices using available features.
 
+# Dataset:
+Dataset includes:
+- item name
+- category
+- price (old and current)
+- if it`s sellable online
+- link
+- short descripttion
+- designer
+- sizes (width, height, depth)
+*[(Dataset)](https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-11-03/ikea.csv)*
+
 # Key Steps:
-- Data loading and cleaning
+- Data preparation (loading, cleaning)
 - Exploratory Data Analysis (EDA)
 - Hypothesis testing
 - Machine learning model development for price prediction
+
+# Data preparation:
+The dataset was collected from an online source and loaded into a pandas DataFrame. Several preprocessing steps were performed to ensure data quality and consistency.
+- Removed duplicates and unnecessary columns
+- Handled missing values and standardized categorical data (e.g., designer, category)
+- Cleaned text fields and removed irrelevant characters
+- Converted numerical features (price, dimensions) to appropriate formats
+- Replaced invalid values (e.g., zeros in dimensions) with nulls
 
 # EDA:
 Key insights:
@@ -78,3 +98,6 @@ Among all features, width was identified as the most influential factor affectin
 ![Screenshot](./ML2.png)
 ![Screenshot](./ML3.png)
 ![Screenshot](./ML4.PNG)
+
+#  Author
+Nataliia Patsai  
